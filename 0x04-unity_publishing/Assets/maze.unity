@@ -1240,6 +1240,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 500
   health: 5
+  scoreText: {fileID: 1243247263}
+  healthText: {fileID: 966469440}
+  winLoseBG: {fileID: 993891931}
+  winLoseText: {fileID: 37897098}
 --- !u!4 &182215117 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6590260220415081280, guid: f99decbe6465fd0409d7c30cbd15fa68,
@@ -3953,7 +3957,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &993891930
 RectTransform:
   m_ObjectHideFlags: 0
